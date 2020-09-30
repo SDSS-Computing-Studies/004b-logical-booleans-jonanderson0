@@ -15,3 +15,9 @@ example:
 Enter a number: -3
 -3 is not a positive integer
 """
+number= input("Enter a number")
+number= int(number)
+if number > 0:
+  print("xx is a positive integer.")
+if number < 0:
+  print("xx is not a positive integer.")
