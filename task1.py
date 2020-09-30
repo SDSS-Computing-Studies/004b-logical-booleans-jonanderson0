@@ -15,3 +15,10 @@ Outputs:
 That is within normal Earth orbit.
 That is not within normal Earth orbit.
 """
+number= input("Enter a number")
+number= int(number)
+if number = (0.9759,1.016):
+  print("That is within normal Earth orbit.")
+  
+else: 
+  print("That is not within normal Earth orbit.")
