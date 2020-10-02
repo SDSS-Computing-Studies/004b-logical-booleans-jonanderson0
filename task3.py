@@ -18,7 +18,7 @@ Enter a number: -3
 number= float(input("Enter a number: "))
 
 if number < 0 or number ==0:
-  print(str(number) + " is not positive integer.")
+  print(str(number) + "is not positive integer.")
   quit()
 value=number%2
 if value==1 or value==0 and number!=0:
@@ -27,4 +27,4 @@ if value==1 or value==0 and number!=0:
 if number==0:
   print("the number is zero")
 else:
-  print(str(number) + " is not positive integer.")
+  print(str(number) + "is not positive integer.")
