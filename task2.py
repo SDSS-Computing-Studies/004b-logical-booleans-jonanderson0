@@ -19,10 +19,12 @@ Enter a number: 8
 8 is only a perfect cube.
 """
 import math
+number = int(input("Enter a number: "))
+cube = number ** (1/3)
+square = number ** 0.5
+sq2 = round(square,8)%2
+c2 = round(cube,8)%2
 
-a = int(input("Enter a number: "))
-b = math.sqrt(a)
-c = a ** 1/3
 
 if int(b + 0.5) ** 2 == a and a ** 1/3 == c:
   print(str(a) + " is both a perfect square and a perfect cube.")
