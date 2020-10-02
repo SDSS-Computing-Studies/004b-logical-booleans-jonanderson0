@@ -18,18 +18,15 @@ Example:
 Enter a number: 8
 8 is only a perfect cube.
 """
-import math
-number = int(input("Enter a number: "))
+number=int(input("Enter a number: "))
 cube = number ** (1/3)
 square = number ** 0.5
 sq2 = round(square,8)%2
 c2 = round(cube,8)%2
 
-
-if int(b + 0.5) ** 2 == a and a ** 1/3 == c:
-  print(str(a) + " is both a perfect square and a perfect cube.")
-elif int(b + 0.5) ** 2 == a:
-  print(str(a) + " is only a perfect square.")
-elif a ** 1/3 == c:
-  print(str(a) + " is only a perfect cube.")
-
+if (sq2==1 or sq2==0) and (c2==1 or c2==0):
+  print(str(number) + " is both a perfect square and a perfect cube.")
+elif sq2!=1 and sq2!=0 and c2==1 or c2==0):
+  print(str(number) + " is only a perfect cube.")
+elif sq2==1 and sq2==0 and c2!=1 or c2!=0):
+  print(str(number) + " is only a perfect square.")
