@@ -17,7 +17,7 @@ Enter a number: -3
 """
 number= int(input("Enter a number: "))
 
-if number > 0:
-  print("xx is a positive integer.")
-if number < 0:
-  print("xx is not a positive integer.")
+if number < 0 or number ==0:
+  print(str(number) + " is not a positive integer.")
+elif number > 0:
+  print(str(number) + " is not a positive integer.")
