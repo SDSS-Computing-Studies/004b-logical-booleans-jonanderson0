@@ -23,3 +23,8 @@ Enter a number: 4
 Enter another number: 25
 4 is not a factor of 25
 """
+number1=int(input("Enter an integer "))
+number2=int(input("Enter another integer "))
+if (number1>number2)==True:
+  gNum=number1
+  
