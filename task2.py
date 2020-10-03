@@ -26,7 +26,7 @@ c2=round(cube,8)%2
 
 if (sq2==1 or sq2==0) and (c2==1 or c2==0):
   print(str(number) + " is both a perfect square and a perfect cube.")
-elif sq2!=1 and sq2!=0 and c2==1 or c2==0):
+elif sq2!=1 and sq2!=0 and c2==1 or c2==0:
   print(str(number) + " is only a perfect cube.")
-elif sq2==1 and sq2==0 and c2!=1 or c2!=0):
+elif sq2==1 or sq2==0 and c2!=1 or c2!=0:
   print(str(number) + " is only a perfect square.")
